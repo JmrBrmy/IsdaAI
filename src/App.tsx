@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       
       <main className="relative">
-        {/* Updated to top-[88px] and calc(100dvh-88px) */}
-        <div id="hero" className="sticky top-[88px] h-[calc(100dvh-88px)] w-full z-0 overflow-hidden bg-[#EAF4FF]">
+        {/* Sticky only on desktop (md:), normal flow on mobile */}
+        <div id="hero" className="relative md:sticky md:top-[80px] md:h-[calc(100dvh-80px)] w-full z-0 overflow-hidden bg-[#EAF4FF]">
           <Hero />
         </div>
         
