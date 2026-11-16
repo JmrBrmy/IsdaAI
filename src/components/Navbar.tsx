@@ -98,11 +98,15 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-4">
-        {/* Added transition-all transform hover:-translate-y-0.5 */}
-        <button className="hidden sm:flex items-center gap-2 px-5 py-3.5 text-base font-medium text-white bg-primary rounded-full hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 shadow-md shadow-primary/20">
+        {/* Converted button to anchor tag for download */}
+        <a 
+          href="/base.apk" 
+          download="IsdaAI.apk"
+          className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 text-base font-medium text-white bg-primary rounded-full hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 shadow-md shadow-primary/20 cursor-pointer"
+        >
           <Download className="w-5 h-5" />
           Download App
-        </button>
+        </a>
         <button className="p-2 text-gray-600 md:hidden">
           <Menu className="w-7 h-7" />
         </button>

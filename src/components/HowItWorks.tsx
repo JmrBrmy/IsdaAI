@@ -55,7 +55,7 @@ export default function HowItWorks() {
     <div 
       ref={containerRef} 
       id="how-it-works" 
-      className="relative h-[350vh] bg-white scroll-mt-[88px]"
+      className="relative h-[350vh] bg-background scroll-mt-[88px]"
     >
       <div className="sticky top-[88px] h-[calc(100dvh-88px)] overflow-hidden flex flex-col justify-center">
         

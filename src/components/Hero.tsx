@@ -45,12 +45,17 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap gap-4 mb-8">
-          <button className="flex items-center gap-2 px-6 py-3.5 bg-primary text-white rounded-full font-semibold hover:bg-primary-dark transition-all shadow-lg shadow-primary/30 hover:shadow-primary/40 transform hover:-translate-y-0.5">
+          {/* Converted button to anchor tag for download */}
+          <a 
+            href="/base.apk" 
+            download="IsdaAI.apk"
+            className="inline-flex items-center gap-2 px-6 py-3.5 bg-primary text-white rounded-full font-semibold hover:bg-primary-dark transition-all shadow-lg shadow-primary/30 hover:shadow-primary/40 transform hover:-translate-y-0.5 cursor-pointer"
+          >
             <Download className="w-5 h-5" />
             Download for Android
-          </button>
-          {/* Added transition-all transform hover:-translate-y-0.5 */}
-          <button className="flex items-center gap-2 px-6 py-3.5 border-2 border-white bg-white/70 backdrop-blur-md text-gray-700 rounded-full font-semibold hover:border-primary hover:text-primary transition-all transform hover:-translate-y-0.5 shadow-sm">
+          </a>
+          
+          <button className="inline-flex items-center gap-2 px-6 py-3.5 border-2 border-white bg-white/70 backdrop-blur-md text-gray-700 rounded-full font-semibold hover:border-primary hover:text-primary transition-all transform hover:-translate-y-0.5 shadow-sm">
             <Smartphone className="w-5 h-5" />
             Try the Web App
           </button>
@@ -82,7 +87,7 @@ export default function Hero() {
         <img 
           src="/hero-graphic.png" 
           alt="IsdaAI Mobile App showing fish scanning interface" 
-          className="w-full h-full object-contain object-center drop-shadow-2xl"
+          className="w-full h-full object-contain object-center drop-shadow-2xl ml-40"
         />
       </motion.div>
       

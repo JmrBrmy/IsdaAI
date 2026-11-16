@@ -39,7 +39,7 @@ export default function Features() {
     // Added an upward-facing shadow: shadow-[0_-10px_30px_rgba(0,0,0,0.08)]
     <section 
       id="features" 
-      className="min-h-screen flex flex-col justify-center py-20 bg-blue-50 scroll-mt-[88px] shadow-[0_-10px_30px_rgba(0,0,0,0.08)] relative"
+      className="min-h-screen flex flex-col justify-center py-20 bg-blue-100 scroll-mt-[88px] shadow-[0_-10px_30px_rgba(0,0,0,0.08)] relative"
     >
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="text-center max-w-3xl mx-auto mb-16">
