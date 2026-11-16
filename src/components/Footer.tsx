@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="flex items-center justify-center gap-3 mb-3">
         {/* Replaced Fish icon with the new logo image */}
         <img 
-          src="/logo.jpg" 
+          src="/logo.png" 
           alt="IsdaAI Logo" 
           className="w-9 h-9 rounded-full object-cover shadow-sm border border-white/10" 
         />

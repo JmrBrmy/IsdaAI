@@ -61,7 +61,7 @@ export default function Navbar() {
         onClick={(e) => handleNavClick(e, 'hero')}
       >
         <img 
-          src="/logo.jpg" 
+          src="/logo.png" 
           alt="IsdaAI Logo" 
           className="w-11 h-11 rounded-full object-cover shadow-sm border border-gray-200" 
         />
