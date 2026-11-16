@@ -62,7 +62,7 @@ export default function HowItWorks() {
         <div className="max-w-7xl mx-auto w-full px-6 h-full flex flex-col justify-center">
           
           {/* Header */}
-          <div className="mb-5 md:mb-5 max-w-2xl shrink-0">
+          <div className="max-w-2xl shrink-0">
             <p className="text-primary font-semibold tracking-wide uppercase text-sm mb-2">
               A simple offline process
             </p>
@@ -134,9 +134,9 @@ export default function HowItWorks() {
                       y: isRevealed ? 0 : 0
                     }}
                     transition={{ duration: 0.4 }}
-                    className="text-center mt-1"
+                    className="text-center mb-50"
                   >
-                    <div className="flex justify-center mb-2 text-primary">
+                    <div className="flex justify-center mb-1 text-primary">
                       {step.icon}
                     </div>
                     <h3 className="font-bold mb-2 text-primary-dark text-lg">
