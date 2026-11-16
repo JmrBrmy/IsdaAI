@@ -21,10 +21,6 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         className="flex-1 max-w-xl z-10 w-full lg:pl-10 pt-4 lg:pt-0"
       >
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/60 backdrop-blur-sm border border-blue-200 text-primary font-semibold text-[10px] sm:text-xs mb-4 sm:mb-6 uppercase tracking-wider shadow-sm">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-          100% Offline AI Detection
-        </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-primary-dark leading-tight drop-shadow-sm">
           Isda<span className="text-primary">AI</span>
