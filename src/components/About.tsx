@@ -1,19 +1,11 @@
 import { ArrowRight, Download } from 'lucide-react';
 
-const team = [
-  { name: "Ricianin L. Bontog", role: "Project Manager" },
-  { name: "Dexter B. Tenchaves", role: "Software Developer" },
-  { name: "Niño B. Labos", role: "Lead System Analyst" },
-  { name: "Charity Cuysona", role: "System Analyst" },
-  { name: "Jejomar T. Bermoy", role: "QA Lead" },
-];
-
 export default function About() {
   return (
     <section id="about" className="flex flex-col w-full scroll-mt-[72px]">
       
       {/* 1. Main About Text (Top) */}
-      <div className="bg-white pt-24 pb-12 px-6">
+      <div className="bg-background pt-24 pb-12 px-6">
         <div className="max-w-7xl mx-auto w-full">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-24">
             <div>
@@ -42,7 +34,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* 2. Dark CTA Block (Middle) */}
+      {/* 2. Dark CTA Block (Bottom) */}
       <div className="bg-primary py-20 px-6">
         <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-8">
           
@@ -56,13 +48,12 @@ export default function About() {
             </p>
           </div>
 
-          {/* Converted button to anchor tag for download */}
+          {/* Ensure you update the href with your actual GitHub Release link! */}
           <a 
             href="https://github.com/JmrBrmy/IsdaAI/releases/download/v1.0.0/base.apk" 
-            download="IsdaAI.apk"
             className="inline-flex items-center gap-3 bg-white text-primary-dark px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all transform hover:-translate-y-0.5 shadow-xl shrink-0 cursor-pointer"
           >
-            <Download className="w-6 h-6" /> 
+            <Download className="w-6 h-6" />
             <div className="text-left">
               <div className="text-sm leading-tight">Download IsdaAI</div>
               <div className="text-xs text-gray-500 font-medium">Android APK • v1.0.0</div>
