@@ -100,7 +100,7 @@ export default function Navbar() {
       <div className="flex items-center gap-4">
         {/* Converted button to anchor tag for download */}
         <a 
-          href="/base.apk" 
+          href="https://github.com/JmrBrmy/IsdaAI/releases/download/v1.0.0/base.apk" 
           download="IsdaAI.apk"
           className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 text-base font-medium text-white bg-primary rounded-full hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 shadow-md shadow-primary/20 cursor-pointer"
         >

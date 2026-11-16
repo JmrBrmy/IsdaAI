@@ -58,11 +58,11 @@ export default function About() {
 
           {/* Converted button to anchor tag for download */}
           <a 
-            href="/base.apk" 
+            href="https://github.com/JmrBrmy/IsdaAI/releases/download/v1.0.0/base.apk" 
             download="IsdaAI.apk"
             className="inline-flex items-center gap-3 bg-white text-primary-dark px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all transform hover:-translate-y-0.5 shadow-xl shrink-0 cursor-pointer"
           >
-            <Download className="w-6 h-6" />
+            <Download className="w-6 h-6" /> 
             <div className="text-left">
               <div className="text-sm leading-tight">Download IsdaAI</div>
               <div className="text-xs text-gray-500 font-medium">Android APK • v1.0.0</div>

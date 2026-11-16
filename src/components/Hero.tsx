@@ -47,7 +47,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4 mb-8">
           {/* Converted button to anchor tag for download */}
           <a 
-            href="/base.apk" 
+            href="https://github.com/JmrBrmy/IsdaAI/releases/download/v1.0.0/base.apk" 
             download="IsdaAI.apk"
             className="inline-flex items-center gap-2 px-6 py-3.5 bg-primary text-white rounded-full font-semibold hover:bg-primary-dark transition-all shadow-lg shadow-primary/30 hover:shadow-primary/40 transform hover:-translate-y-0.5 cursor-pointer"
           >
