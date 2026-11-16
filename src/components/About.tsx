@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="flex flex-col w-full scroll-mt-[72px]">
       
       {/* 1. Main About Text (Top) */}
-      <div className="bg-background pt-24 pb-12 px-6">
+      <div className="bg-white pt-24 pb-12 px-6">
         <div className="max-w-7xl mx-auto w-full">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-24">
             <div>

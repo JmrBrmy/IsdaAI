@@ -87,7 +87,7 @@ export default function Hero() {
         <img 
           src="/hero-graphic.png" 
           alt="IsdaAI Mobile App showing fish scanning interface" 
-          className="w-full h-full object-contain object-center drop-shadow-2xl ml-40"
+          className="w-full h-full object-contain object-center drop-shadow-2xl mr-30"
         />
       </motion.div>
       
