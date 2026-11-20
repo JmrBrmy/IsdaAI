@@ -20,7 +20,7 @@ export default function About() {
                 IsdaAI is an offline Android application for consumers, fish vendors, and market inspectors who want to verify fish freshness instantly without an internet connection.
               </p>
               <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                Developed by students from Trinidad Municipal College, the app uses an on-device TensorFlow Lite model to analyze fish eyes and gills. Your scans and data are stored locally on your device, ensuring complete privacy and availability anywhere.
+                Developed by students from Trinidad Municipal College, the app runs an on-device AI model that analyzes fish eyes and gills. Your scans and data are stored locally on your device, ensuring complete privacy and availability anywhere.
               </p>
               <a href="#how-it-works" className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-light transition-colors group">
                 See how it works

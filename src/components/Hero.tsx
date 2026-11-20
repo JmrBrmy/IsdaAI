@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-x-4 sm:gap-x-6 gap-y-2 sm:gap-y-3 text-xs sm:text-sm text-gray-600 font-medium border-t border-blue-200/60 pt-4 sm:pt-6">
           <div className="flex items-center gap-1.5 sm:gap-2"><ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-primary" /><span>No Internet Required</span></div>
           <div className="flex items-center gap-1.5 sm:gap-2"><Zap className="w-4 h-4 sm:w-5 sm:h-5 text-primary" /><span>Instant Results</span></div>
-          <div className="flex items-center gap-1.5 sm:gap-2"><Smartphone className="w-4 h-4 sm:w-5 sm:h-5 text-primary" /><span>Android APK v1.0</span></div>
+          <div className="flex items-center gap-1.5 sm:gap-2"><Smartphone className="w-4 h-4 sm:w-5 sm:h-5 text-primary" /><span>Android APK v1.0.0</span></div>
         </div>
       </motion.div>
 

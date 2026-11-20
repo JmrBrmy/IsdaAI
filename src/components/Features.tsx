@@ -1,12 +1,25 @@
-import { Camera, WifiOff, Database, ShieldCheck, BookOpen, Zap } from 'lucide-react';
+import {
+  Camera,
+  WifiOff,
+  Database,
+  ShieldCheck,
+  BookOpen,
+  Zap,
+  Video,
+  ChefHat,
+  Languages,
+} from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const features = [
-  { icon: <WifiOff className="w-6 h-6 text-primary" />, title: "100% Offline Detection", description: "Powered by an on-device TensorFlow Lite model. No internet, cloud, or server required." },
+  { icon: <WifiOff className="w-6 h-6 text-primary" />, title: "100% Offline Detection", description: "Powered by an on-device AI model. No internet, cloud, or server required." },
   { icon: <Zap className="w-6 h-6 text-primary" />, title: "Instant Classification", description: "Get a Fresh or Stale result with a confidence score in just 3-5 seconds." },
-  { icon: <Camera className="w-6 h-6 text-primary" />, title: "Smart Image Capture", description: "Capture using your camera or select from the gallery. Built-in guidance ensures clear eye and gill photos." },
-  { icon: <Database className="w-6 h-6 text-primary" />, title: "Local Scan History", description: "Every scan is saved locally to an SQLite database. Review or delete past results anytime." },
-  { icon: <BookOpen className="w-6 h-6 text-primary" />, title: "Fish Info & Guide", description: "Built-in reference guide for the 6 supported species: Bangus, Tilapia, Andohaw, Katambak, Timbungan, and Carabalyas." },
+  { icon: <Camera className="w-6 h-6 text-primary" />, title: "Smart Image Capture", description: "Take a photo or pick one from the gallery. Choose the fish species or leave it on Auto, and the built-in guide helps you take clear eye and gill photos." },
+  { icon: <Video className="w-6 h-6 text-primary" />, title: "Live Detection", description: "Point the camera at fish and see green (Fresh) and red (Stale) boxes in real time." },
+  { icon: <Database className="w-6 h-6 text-primary" />, title: "Local Scan History", description: "Save any result to a local SQLite database on your phone. Review or delete past scans anytime." },
+  { icon: <BookOpen className="w-6 h-6 text-primary" />, title: "Fish Info & Guide", description: "Built-in reference guide for the 6 supported species: Bangus, Tilapia, Andohaw, Timbungan, Silay, and Carabalyas." },
+  { icon: <ChefHat className="w-6 h-6 text-primary" />, title: "Recipe Suggestions", description: "Got a fresh fish? Get cooking ideas that match the species, and save your favorites." },
+  { icon: <Languages className="w-6 h-6 text-primary" />, title: "English, Tagalog & Dark Mode", description: "Switch the app language between English and Tagalog, and choose a Light or Dark theme." },
   { icon: <ShieldCheck className="w-6 h-6 text-primary" />, title: "Data Privacy First", description: "No account creation required. Your images and scan history never leave your device." }
 ];
 
@@ -26,7 +39,7 @@ export default function Features() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: (index % 3) * 0.1 }}
               className="p-6 sm:p-8 rounded-2xl bg-white border border-blue-100 hover:border-primary/30 hover:shadow-xl transition-all"
             >
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 sm:mb-6">
