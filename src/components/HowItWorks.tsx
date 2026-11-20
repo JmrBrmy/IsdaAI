@@ -6,14 +6,14 @@ const steps = [
   { 
     id: 1, 
     title: "Capture the Catch", 
-    description: "Use the built-in camera or gallery to take a clear photo of the fish's eyes and gills.", 
+    description: "Take or pick a clear photo of one fish, showing its eyes and gills. Choose the species or leave it on Auto.", 
     icon: <Camera className="w-5 h-5" />, 
     position: "left-[10%] top-[62%]" 
   },
   { 
     id: 2, 
     title: "On-Device AI Analysis", 
-    description: "Our embedded TensorFlow Lite model processes the image locally. No internet connection is required.", 
+    description: "The AI model runs right on your phone and analyzes the photo locally. No internet connection is required.", 
     icon: <Cpu className="w-5 h-5" />, 
     position: "left-[35%] top-[27%]" 
   },
@@ -27,7 +27,7 @@ const steps = [
   { 
     id: 4, 
     title: "Save & Track Locally", 
-    description: "Results are saved securely to your device's local SQLite database for future reference.", 
+    description: "Tap Save to keep the result in your device's local history. It never leaves your phone.", 
     icon: <Database className="w-5 h-5" />, 
     position: "left-[90%] top-[36%]" 
   }
